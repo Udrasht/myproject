@@ -1,7 +1,7 @@
 #include<studio.h>
 int main(){
 	 int i,fact=1,number;    
- printf("Enter a number: ");    
+ printf("Enter a number to find factorial: ");    
   scanf("%d",&number);    
     for(i=1;i<=number;i++){    
       fact=fact*i;    
